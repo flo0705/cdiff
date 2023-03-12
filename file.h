@@ -1,8 +1,4 @@
-//
-// Created by florian on 20.02.23.
-//
+#include <stdio.h>
 
-#ifndef CDIFF_FILE_H
-#define CDIFF_FILE_H
-
-#endif //CDIFF_FILE_H
+void read_file(FILE* fp, char* content);
+unsigned int fsize(FILE* fp); 
